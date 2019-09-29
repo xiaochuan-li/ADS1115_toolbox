@@ -273,6 +273,7 @@ def comp_curve_inter(issave=False,path=".//figure//comparison.png"):
     plt.plot(voltages, distance_curve, "b", label="curve using {} s".format(end_0 - start_0))
     plt.plot(voltages, distance_inter, "r", label="inter using {} s".format(end_1 - end_0))
     plt.legend()
+    plt.grid()
     if issave:
         plt.savefig(path)
     plt.show()
@@ -284,7 +285,7 @@ def comp_curve_inter(issave=False,path=".//figure//comparison.png"):
 '''-----------------------------------------------------------------------------------------'''
 
 if __name__ == "__main__":
-    
+
     comp_curve_inter(issave=True,path="..//figure//cop.png")
 
     """

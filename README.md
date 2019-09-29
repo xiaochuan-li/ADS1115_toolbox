@@ -2,7 +2,7 @@
   This is a toolbox for ADS1115, including the functions for configuring for and reading from a ADS1115, and an example using a magnetic field sensor to measure the distance.
 
 ## 0. Intriduction to the Parameters of ADS1115
-  To read from ADS1115, we must first write a configuration of two bytes into it. (see the table below)
+  To read from ADS1115, we must first write a configuration of two bytes into it. (see the table below)  
 ++++TABLE FOR AIN(AIN4=GND)++++  
 +++++++++++++++++++  
 | CODE (10) |  CODE (2) | AINP | AINN |  
@@ -37,9 +37,6 @@
 |     6     |    110    |  475 SPS    |  
 |     7     |    111    |  860 SPS    |  
 +++++++++++++++++++  
-
-
-
 
   These are just a part of them, the whole description is available on the GOOGLE
   

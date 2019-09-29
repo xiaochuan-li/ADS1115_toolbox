@@ -272,6 +272,8 @@ def comp_curve_inter(issave=False,path=".//figure//comparison.png"):
     plt.title("Comparison of Two Method With 500 Points")
     plt.plot(voltages, distance_curve, "b", label="curve using {} s".format(end_0 - start_0))
     plt.plot(voltages, distance_inter, "r", label="inter using {} s".format(end_1 - end_0))
+    plt.xlabel("voltage")
+    plt.ylabel("distance")
     plt.legend()
     plt.grid()
     if issave:

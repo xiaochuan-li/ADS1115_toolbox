@@ -41,7 +41,7 @@
 |     7     |    111    |  860 SPS    |  
 
 
-  These are just a part of them, the whole description is available on the GOOGLE
+  These are just a part of them, the whole description is available on the [PDF](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
   
 
 ## 1. Measuring

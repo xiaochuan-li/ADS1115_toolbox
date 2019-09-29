@@ -3,8 +3,7 @@
 
 ## 0. Intriduction to the Parameters of ADS1115
   To read from ADS1115, we must first write a configuration of two bytes into it. (see the table below)  
-TABLE FOR AIN(AIN4=GND)
-___
+    TABLE FOR AIN(AIN4=GND)
 | CODE (10) |  CODE (2) | AINP | AINN |  
 |--|--|--|--|  
 |     0     |    000    | AIN0 | AIN1 |  
@@ -15,9 +14,9 @@ ___
 |     5     |    101    | AIN1 | AIN4 |  
 |     6     |    110    | AIN2 | AIN4 |  
 |     7     |    111    | AIN3 | AIN4 |  
-+++++++++++++++++++  
-++++++TABLE FOR FSR++++++  
-+++++++++++++++++++  
+
+    TABLE FOR FSR  
+|--|--|--|
 | CODE (10) |  CODE (2) |     FSR     |  
 |     0     |    000    |   6.144V    |  
 |     1     |    001    |   4.096V    |  
@@ -25,9 +24,9 @@ ___
 |     3     |    011    |   1.024V    |  
 |     4     |    100    |   0.512V    |  
 |     5     |    101    |   0.256V    |  
-+++++++++++++++++++  
-++++++TABLE FOR RATE++++++  
-+++++++++++++++++++  
+
+    TABLE FOR RATE 
+|--|--|--|  
 | CODE (10) |  CODE (2) |    RATE     |  
 |     0     |    000    |    8 SPS    |  
 |     1     |    001    |   16 SPS    |  
@@ -37,7 +36,7 @@ ___
 |     5     |    101    |  250 SPS    |  
 |     6     |    110    |  475 SPS    |  
 |     7     |    111    |  860 SPS    |  
-+++++++++++++++++++  
+
 
   These are just a part of them, the whole description is available on the GOOGLE
   

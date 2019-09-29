@@ -52,4 +52,4 @@
 
 ## 3. Prediction
   For curve_fit, as we have already the equation, we can solve this equation and get the distance;while for the interpolation, all we have to do is just calculating the average  
-  [](https://github.com/xiaochuan-li/ADS1115_toolbox/blob/master/figure/cop.png)
+  ![github](https://github.com/xiaochuan-li/ADS1115_toolbox/blob/master/figure/cop.png "github")

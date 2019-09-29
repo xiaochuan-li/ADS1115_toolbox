@@ -5,7 +5,7 @@
   To read from ADS1115, we must first write a configuration of two bytes into it. (see the table below)  
 *  ++++TABLE FOR AIN(AIN4=GND)++++  
 *  +++++++++++++++++++  
-*  | CODE (10) |  CODE (2) | AINP | AINN |  
+| CODE (10) |  CODE (2) | AINP | AINN |  
 |     0     |    000    | AIN0 | AIN1 |  
 |     1     |    001    | AIN0 | AIN3 |  
 |     2     |    010    | AIN1 | AIN3 |  

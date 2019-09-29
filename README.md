@@ -51,5 +51,5 @@
   The relation between the distance and the tension should never be linear, while the curve_fit depends a lot on the denseness of x, so we choose to fit the tension with the distance. For the interpolation, there is no difference.
 
 ## 3. Prediction
-  For curve_fit, as we have already the equation, we can solve this equation and get the distance;while for the interpolation, all we have to do is just calculating the average
-
+  For curve_fit, as we have already the equation, we can solve this equation and get the distance;while for the interpolation, all we have to do is just calculating the average  
+  [](https://github.com/xiaochuan-li/ADS1115_toolbox/blob/master/figure/cop.png)

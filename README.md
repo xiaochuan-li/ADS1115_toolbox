@@ -3,17 +3,18 @@
 
 ## 0. Intriduction to the Parameters of ADS1115
   To read from ADS1115, we must first write a configuration of two bytes into it. (see the table below)
-++++TABLE FOR AIN(AIN4=GND)++++
-+++++++++++++++++++
-| CODE (10) |  CODE (2) | AINP | AINN |
-|     0     |    000    | AIN0 | AIN1 |
-|     1     |    001    | AIN0 | AIN3 |
-|     2     |    010    | AIN1 | AIN3 |
-|     3     |    011    | AIN2 | AIN3 |
-|     4     |    100    | AIN0 | AIN4 |
-|     5     |    101    | AIN1 | AIN4 |
-|     6     |    110    | AIN2 | AIN4 |
-|     7     |    111    | AIN3 | AIN4 |
+  
+  ++++TABLE FOR AIN(AIN4=GND)++++
+  +++++++++++++++++++
+  | CODE (10) |  CODE (2) | AINP | AINN |
+  |     0     |    000    | AIN0 | AIN1 |
+  |     1     |    001    | AIN0 | AIN3 |
+  |     2     |    010    | AIN1 | AIN3 |
+  |     3     |    011    | AIN2 | AIN3 |
+  |     4     |    100    | AIN0 | AIN4 |
+  |     5     |    101    | AIN1 | AIN4 |
+  |     6     |    110    | AIN2 | AIN4 |
+  |     7     |    111    | AIN3 | AIN4 |
 +++++++++++++++++++
 ++++++TABLE FOR FSR++++++
 +++++++++++++++++++

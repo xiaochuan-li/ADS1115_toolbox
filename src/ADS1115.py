@@ -145,3 +145,4 @@ class ADS1115:
 if __name__ == "__main__":
     ads = ADS1115()
     print(ads.descriptor())
+    ads.help_description()

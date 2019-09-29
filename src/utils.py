@@ -284,13 +284,15 @@ def comp_curve_inter(issave=False,path=".//figure//comparison.png"):
 '''-----------------------------------------------------------------------------------------'''
 
 if __name__ == "__main__":
+    
     comp_curve_inter(issave=True,path="..//figure//cop.png")
+
     """
     print(get_coe(False,"inter.txt"))
     print(bi_min(1.3))
     #print(get_coe(False, "inter.txt"))
     """
-    '''
+"""
     data=transfer_data()
     x=data["x"]
     y=data["y"]
@@ -304,5 +306,7 @@ if __name__ == "__main__":
     plt.xlabel("distance")
     plt.ylabel("voltage")
     plt.legend()
+    plt.grid()
+    plt.title("Fitting with 2 Methodes")
     plt.show()
-'''
+"""

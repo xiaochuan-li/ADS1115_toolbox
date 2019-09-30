@@ -123,12 +123,12 @@ def save(isCurve, data):
     :return: void
     """
     if isCurve:
-        file_ = open('curve.txt', 'w')
+        file_ = open('..//data//curve.txt', 'w')
         for coe in data:
             file_.write("{}\n".format(str(coe)))
         file_.close()
     if not isCurve:
-        file_ = open('inter.txt', 'w')
+        file_ = open('..//data//inter.txt', 'w')
         for coe in data:
             file_.write("{} {}\n".format(str(coe[0]), str(coe[1])))
         file_.close()
